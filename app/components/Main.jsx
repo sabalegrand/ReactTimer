@@ -8,7 +8,7 @@ const Main = (props) => {
         <Nav />
         <div className="row">
           <div className="columns medium-6 large-4 small-centered">
-            <h3>Timer</h3>
+            <h3>Main.jsx</h3>
             {props.children}
           </div>
         </div>
