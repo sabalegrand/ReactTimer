@@ -6,12 +6,8 @@ const Main = (props) => {
     return(
       <div>
         <Nav />
-        <div className="row">
-          <div className="columns medium-6 large-4 small-centered">
-            <h3>Main.jsx</h3>
-            {props.children}
-          </div>
-        </div>
+        <h3>Main.jsx</h3>
+        {props.children}
       </div>
     );
 }
