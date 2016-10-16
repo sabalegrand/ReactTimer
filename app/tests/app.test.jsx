@@ -1,5 +1,8 @@
 import expect from 'expect';
 
-it('description', () => {
-  expect(1).toBe(1);
+describe('App', function() {
+  it('should properly run tests', () => {
+    expect(1).toBe(1);
+  });
+
 });
